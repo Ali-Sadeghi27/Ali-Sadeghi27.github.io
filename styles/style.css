@@ -245,11 +245,13 @@ template {
 .iphone-13-pro {
     text-align: center;
     align-items: center;
+    background-color: #fbfbfd;
 }
 .iphone-13-pro__title {
     font-size: 3rem;
-    margin-bottom: 0;
+    margin: 0;
     color: #000;
+    padding-top: 2.5rem;
 }
 .iphone-13-pro__text {
     margin-top: .3rem;
@@ -257,14 +259,145 @@ template {
     margin-bottom: .7rem;
     color: #000;
 }
-.iphone-13-pro__link {
+.iphone-13-pro__link , 
+.iphone-13__link, 
+.macBook-pro__link {
     margin-right: 1rem;
     font-size: 1.4rem;
     color: #267cd2;
 }
-.iphone-13-pro__img {
+.iphone-13-pro__link:hover, 
+.iphone-13__link:hover, 
+.macBook-pro__link:hover, 
+.air-pods__link:hover, 
+.watch__link:hover,
+.home-pod__link:hover,
+.ipad__link:hover {
+    text-decoration: underline;
+}
+.iphone-13-pro__img, .iphone-13__img, .macBook-pro__img {
     max-width: 100%;
 }
+.iphone-13 {
+    text-align: center;
+    align-items: center;
+    background-color: #35283c;
+}
+.iphone-13__title {
+    font-size: 3rem;
+    margin: 0;
+    color: #fff;
+    padding-top: 3.5rem;
+}
+.iphone-13__text {
+    margin-top: .3rem;
+    font-size: 1.8rem;
+    margin-bottom: .7rem;
+    color: #d2a0c5;
+}
+.macBook-pro {
+    text-align: center;
+    align-items: center;
+    background-color: #fbfbfd;
+}
+.macBook-pro__title {
+    font-size: 3rem;
+    margin: 0;
+    color: #000;
+    padding-top: 3.5rem;
+}
+.macBook-pro__text {
+    margin-top: .3rem;
+    font-size: 1.8rem;
+    margin-bottom: .7rem;
+    color: #000;
+}
+.products1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.air-pods {
+    text-align: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    margin: 1rem;
+    max-width: 50%;
+}
+.air-pods__title {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #000;
+}
+.air-pods__text {
+    margin-top: .3rem;
+    font-size: 1.2rem;
+    margin-bottom: .7rem;
+    color: #000;
+}
+.air-pods__link, 
+.watch__link,
+.home-pod__link,
+.ipad__link {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    color: #267cd2;
+}
+.watch {
+    text-align: center;
+    align-items: center;
+    background-color: #f5f5f7;
+    max-width: 50%;
+    margin: 1rem 0;
+}
+.watch__header {
+    padding-top: 1rem;
+    color: #bf4a22;
+    font-size: .8rem;
+}
+.watch__text {
+    margin-top: .3rem;
+    font-size: 1.2rem;
+    margin-bottom: .7rem;
+    color: #000;
+}
+.products2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.home-pod {
+    text-align: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    max-width: 50%;
+    margin: 0 1rem 1rem 1rem;
+}
+.home-pod__title {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #000;
+    margin-top: 2rem;
+}
+.home-pod__color {
+    color: gray;
+    font-size: .7rem;
+    margin-top: 1rem;
+}
+.ipad {
+    text-align: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    max-width: 50%;
+}
+.ipad__title {
+    margin-top: 3rem;
+}
+.ipad__text {
+    margin-top: .8rem;
+    font-size: 1.2rem;
+    margin-bottom: .7rem;
+    color: #000;
+}
+
 
 /* medias */
 
